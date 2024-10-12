@@ -56,7 +56,7 @@ public class Libro extends Material {
         this.anio = anio;
     }
 
-    @Override
+    @Override 
     public String getDetalles() {
         return "Libro: " + titulo + " de " + autor + " (" + anio + "), ISBN: " + isbn + ", Paginas: " + paginas + ", editorial: " + editorial;
     }
