@@ -46,7 +46,7 @@ public class CD extends Material {
         this.numCanciones = numCanciones;
     }
 
-    @Override
+    @Override 
     public String getDetalles() {
         return "CD: " + titulo + " de " + artista + ", Genero: " + genero + ", Duracion: " + duracion + " minutos, Canciones: " + numCanciones;
     }
