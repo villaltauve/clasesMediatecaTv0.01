@@ -16,7 +16,6 @@ public class Libro extends Material {
         this.anio = anio;
     }
 
-    // Getters and setters for book-specific attributes
     public String getAutor() {
         return autor;
     }
